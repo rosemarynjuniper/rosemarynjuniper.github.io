@@ -1,0 +1,126 @@
+body,html {
+	height:100vh;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	font-family:Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+.header-wrapper {
+	max-width:100%;
+	overflow-x:scroll;
+	background-color:#000;
+	margin:0px;
+	padding:0px;
+}
+.header {
+	display:block;
+	word-wrap:normal;
+	overflow-x:scroll;
+	font-size:12pt;
+	height:19px !important;
+	padding-left:10px;
+	padding-right:10px;
+	width:85%;
+}
+.header a {
+	color:#fff;
+	font-family:12pt;
+	display:inline;
+	border-radius:3px;
+	transition-duration:0.1s;
+	padding-left:4px;
+	padding-right:4px;
+	text-decoration:none;
+	font-family:Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+.linkbody a {
+	color:#000;
+	font-family:12pt;
+	display:inline-block;
+	border-radius:3px;
+	transition-duration:0.3s;
+	padding-left:4px;
+	padding-right:4px;
+	text-decoration:none;
+	margin-top:5px !important;
+	font-family:Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+.header a:hover {
+	background-color:blue;
+}
+.linkbody a:hover {
+	background-color:blue;
+}
+.linkbody {
+	max-width:700px;
+	margin:auto;
+	margin-top:50px;
+}
+.pdfbody {
+	height:100vh;
+	background-color:red;
+	overflow-y:scroll;
+}
+.pdfbody iframe {
+	height:99%;
+	width:100%;
+	border:none;
+}
+.header-side-buttons {
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	right:0px;
+	margin:0px;
+	padding:0px;
+	padding-right:10px;
+}
+.header-side-buttons button {
+	padding:0px 3px 0px 3px;
+	margin:0px;
+	border:none;
+	border-radius:3px;
+	transition-duration:0.1s;
+	color:#fff;
+	background-color:transparent;
+	cursor:pointer;
+	font-size:12pt;
+}
+.header-side-buttons button:hover {
+	background-color:blue;
+}
+#notess {
+	position:fixed;
+	display:none;
+	top:20px;
+	right:500px;
+	height:500px;
+	width:500px;
+	max-width:500px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#notess input {
+	width:500px;
+	word-wrap:normal;
+}
+.footer-nav {
+	position:fixed;
+	bottom:0px;
+	left:46%;
+	text-align:center;
+	background-color:#fff;
+	border-radius:3px;
+	cursor:pointer;
+}
+.footer-nav a {
+	text-decoration:none;
+	transition-duration:0.1s;
+	color:#000;
+	margin:0px;
+	padding:0px;
+}
+.footer-nav a:hover {
+	background-color:blue;
+	color:#fff;
+}
