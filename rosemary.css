@@ -58,7 +58,7 @@ body,html {
 }
 .pdfbody {
 	height:100vh;
-	background-color:red;
+	background-color:black;
 	overflow-y:scroll;
 }
 .pdfbody iframe {
